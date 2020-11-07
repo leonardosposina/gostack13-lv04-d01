@@ -1,8 +1,8 @@
-# Rocketseat
-
-## Bootcamp GoStack #13
+![GoStack Bootcamp][logo]
 
 ### Level 04 - Desafio: Database relations
+
+[📑 Instruções do desafio][challenge]
 
 ---
 
@@ -22,7 +22,7 @@
 
 ---
 
-### 📑 Testes
+### ⚙ Testes
 
 - [x] - `should be able to create a new customer`: Para que esse teste passe, sua aplicação deve permitir que um cliente seja criado, e retorne um json com o cliente criado.
 
@@ -43,3 +43,6 @@
 - [x] - `should be able to subtract an product total quantity when it is ordered`: Para que esse teste passe, sua aplicação deve permitir que, quando um novo pedido for criado, seja alterada a quantidade total dos produtos baseado na quantidade pedida.
 
 - [x] - `should be able to list one specific order`: Para que esse teste passe, você deve permitir que a rota orders/:id retorne um pedido, contendo todas as informações do pedido com o relacionamento de customer e order_products.
+
+[logo]: https://github.com/leonardosposina/gostack13-lv01-d01/blob/master/docs/gostack-bootcamp.png?raw=true
+[challenge]: https://github.com/rocketseat-education/bootcamp-gostack-desafios/tree/master/desafio-database-relations
